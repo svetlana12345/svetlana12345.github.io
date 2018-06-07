@@ -1,0 +1,17 @@
+body {
+  background-color:  #10253A;
+  color: #ABABAB;
+}
+h1 {
+  color: #DDD;
+}
+h2, h3 {
+  color: #4A6075;
+}
+.grey {
+  background-color: #AAA;
+  color: #222;
+}
+.pink {
+  color: #C71585;
+}

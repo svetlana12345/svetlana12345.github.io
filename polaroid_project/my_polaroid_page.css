@@ -1,0 +1,79 @@
+body {
+
+    background-color: #FFE4E1;
+    /*This is a comment - make background transparent */
+    background-image: linear-gradient(to bottom, #FFE4E1, #FF69B4);
+    background-repeat: no-repeat;
+    /* This is defining a new font from Font Stack Mod 3 Reading*/
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    /* Setting font size */
+    font-size: 16px;
+
+}
+
+
+<img id="bart" src="bart.png" alt="Image of the fluffy grey Bart cat." > #bart {
+    width: 25%;
+}
+
+
+/* For Heading named First Heading*/
+
+h1 {
+    color: orange;
+    font-family: Papyrus, fantasy;
+    font-size: 3em;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #D247AC;
+}
+
+a {
+    color: aqua
+}
+
+/* Defining my own tag named .center*/
+
+/*Need to use #bart for bart's definition, .bart does not work, maybe something special for image definitions */
+
+#bart {
+
+    width: 15%;
+    transform: rotate(-5deg);
+    border-radius: 15px;
+
+
+
+
+}
+
+.tag {
+    color: yellow;
+    text-align: right;
+    text-shadow: 2px 2px 1px #2874A6;
+
+}
+
+.section {
+    background-image: url(grungy-paper.jpg);
+    background-position: bottom;
+}
+
+.polaroid {
+    background-color: aqua;
+    display: inline-block;
+    padding-top: 30px;  padding-bottom: 5px;
+    padding-left: 2px;  padding-right: 2px;
+    margin-top: 2px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    border-style: solid;
+    font-family: "Nothing You Could Do", "Brush Script MT", cursive;
+     
+}
